@@ -1,0 +1,87 @@
+a {
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: block;
+    margin-bottom: 32px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background-color: #4e75ff;     
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+button:hover{
+    background-color: #6c8cff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form > label{
+    display: block;
+    font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.form > label > input {
+    display: block;
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 40px;
+}
+
+.form > label > input:hover {
+    border: 1px solid #000;
+}
+
+.form > label > input:focus {
+    border: 1px solid #4e75ff;
+    outline: none;
+}
+
+fieldset {
+    font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #2e2f42;
+        border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 78px;
+       display: flex;
+       flex-direction: row;
+       padding: 0;
+       gap: 48px;
+      
+}
+
+fieldset:hover{
+    border: 1px solid #000;
+}
+fieldset:focus {
+        outline: none;
+}
+
